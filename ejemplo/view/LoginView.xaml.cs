@@ -28,12 +28,30 @@ namespace ejemplo.view
 
         private void btn_Minimizar_Click(object sender, RoutedEventArgs e)
         {
-
+            this.WindowState = WindowState.Minimized;
         }
 
         private void btn_cerrar_Click(object sender, RoutedEventArgs e)
         {
+            this.Close();
+        }
 
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            // Obtener el elemento seleccionado
+            ComboBoxItem selectedItem = (ComboBoxItem)dept.SelectedItem;
+
+            if (selectedItem != null && selectedItem.ToString().Equals("amin"))
+            {
+
+                // Obtener el texto visible (Content)
+                string contentValue = selectedItem.Content.ToString();
+                MessageBox.Show($"{contentValue}");
+            }
+            else
+            {
+                MessageBox.Show("No se ha seleccionado ningún departamento.");
+            }
         }
     }
 }
