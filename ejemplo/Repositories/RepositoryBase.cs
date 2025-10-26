@@ -22,7 +22,7 @@ namespace ejemplo.Repositories
             //LAPTOP-A6E4VDMG\VSGESTION
             
             //Seleccion de servidor
-            string servidorPedido = servidores[0];
+            string servidorPedido = servidores[1];
 
             _connectionString = $"Server={servidorPedido}; Database=RHDB; Integrated Security=true";
             

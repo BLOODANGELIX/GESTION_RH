@@ -1,0 +1,16 @@
+# Archivo .gitignore para un proyecto de Visual Studio
+
+# 1. Archivos de usuario específicos de Visual Studio
+*.suo
+*.user
+
+# 2. Carpeta de configuraciones de Visual Studio
+.vs/
+
+# 3. Carpetas de compilación (Binarios y archivos temporales)
+bin/
+obj/
+
+# 4. Opcional: Archivos de caché
+*.cache
+
