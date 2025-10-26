@@ -12,13 +12,26 @@ namespace ejemplo.Repositories
         public RepositoryBase()
 
         {
+            //Lista de los servidores
+            string[] servidores = new string[]
+            {
+                "LAPTOP-A6E4VDMG\\VSGESTION",
+                "DESKTOP-S4PFS0S\\VSGESTION"
+            };
             // Para poder hacer pruebas es necesario cambiar el nombre del servidor para cada integrante que vaya a realizar las pruebas
-            _connectionString = "Server=DESKTOP-S4PFS0S\\VSGESTION; Database=RHDB; Integrated Security=true";
+            //LAPTOP-A6E4VDMG\VSGESTION
+            
+            //Seleccion de servidor
+            string servidorPedido = servidores[0];
+
+            _connectionString = $"Server={servidorPedido}; Database=RHDB; Integrated Security=true";
             
         }
+
         protected SqlConnection GetConnection()
         {
             return new SqlConnection(_connectionString);
+
         }
     }
 }
