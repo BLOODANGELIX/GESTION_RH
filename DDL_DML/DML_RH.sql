@@ -1,4 +1,10 @@
 -- =======================================
+-- Indicar a SQL que use esa Base de Datos
+-- =======================================
+
+USE [RHDB];
+GO
+-- =======================================
 -- 1. Insertar Departamentos (sin jefe aún)
 -- =======================================
 INSERT INTO [dbo].[Departamento] (nombreDepartamento, idJefe)
@@ -54,7 +60,7 @@ WHERE nombreDepartamento = 'Tecnologías de la Información';
 -- =======================================
 -- 5. Insertar Usuarios (vinculados simbólicamente)
 -- =======================================
-INSERT INTO [dbo].[Usuario] (usuario, contraseña)
+INSERT INTO [dbo].[Usuario] (usuario, contrasenia)
 VALUES
 ('admin', 'admin123'),
 ('carlos.m', 'rhu2025'),

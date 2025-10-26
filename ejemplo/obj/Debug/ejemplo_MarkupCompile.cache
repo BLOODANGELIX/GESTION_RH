@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\
 ejemplo
 none
 false
 DEBUG;TRACE
-C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\App.xaml
-3115805914
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\App.xaml
+31958221439
 
-71266017900
+141017458105
 13-1310406943
-CustomControls\BindablePasswordBox.xaml;MainWindow.xaml;view\LoginView.xaml;
+CustomControls\BindablePasswordBox.xaml;Views\MainWindow.xaml;Views\LoginView.xaml;
 
 False
 

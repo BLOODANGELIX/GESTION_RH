@@ -1,10 +1,25 @@
+/* =======================================
+Crear la Base de Datos
+=======================================
+*/
+
+CREATE DATABASE [RHDB];
+GO
+
+-- =======================================
+-- Indicar a SQL que use esa Base de Datos
+-- =======================================
+
+USE [RHDB];
+GO
+
 -- =======================================
 -- Tabla: Usuario
 -- =======================================
 CREATE TABLE [dbo].[Usuario](
 	[idUsuario] INT IDENTITY(1,1) NOT NULL,
 	[usuario] NVARCHAR(30) NOT NULL,
-	[contraseña] NVARCHAR(50) NOT NULL,
+	[contrasenia] NVARCHAR(50) NOT NULL,
 	CONSTRAINT [PK_Usuario] PRIMARY KEY CLUSTERED ([idUsuario] ASC)
 );
 
