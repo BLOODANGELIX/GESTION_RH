@@ -18,6 +18,6 @@ namespace ejemplo.Models
         public string Correo { get; set; }
         public ModeloDepartamento Departamento { get; set;}
         public ModeloPuesto Puesto {get; set;}
-        public ModeloEmpleado Jefe {  get; set; }
+
     }
 }
