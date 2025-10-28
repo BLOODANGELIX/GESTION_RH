@@ -8,6 +8,8 @@ namespace ejemplo.Models
 {
     public class ModeloPuesto
     {
-
+        public int IdPuesto { get; set; }
+        public string Nombre { get; set; }
+        public double Salario { get; set; }
     }
 }

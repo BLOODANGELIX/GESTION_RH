@@ -16,7 +16,8 @@ namespace ejemplo.Repositories
             string[] servidores = new string[]
             {
                 "LAPTOP-A6E4VDMG\\VSGESTION",
-                "DESKTOP-S4PFS0S\\VSGESTION"
+                "DESKTOP-S4PFS0S\\VSGESTION",
+                "DESKTOP-85CNOQA\\VSGESTION"
             };
             // Para poder hacer pruebas es necesario cambiar el nombre del servidor para cada integrante que vaya a realizar las pruebas
             //LAPTOP-A6E4VDMG\VSGESTION
