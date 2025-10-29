@@ -80,3 +80,24 @@ D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\ejemplo.g.resources
 D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\ejemplo.Properties.Resources.resources
 D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.GenerateResource.cache
 D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.CoreCompileInputs.cache
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\bin\Debug\ejemplo.exe.config
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\bin\Debug\ejemplo.exe
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\bin\Debug\ejemplo.pdb
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.AssemblyReference.cache
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo.exe.config
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\CustomControls\BindablePasswordBox.g.cs
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\Views\MainWindow.g.cs
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\Views\LoginView.g.cs
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\App.g.cs
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo_MarkupCompile.cache
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo_MarkupCompile.lref
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\CustomControls\BindablePasswordBox.baml
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\Views\MainWindow.baml
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\Views\LoginView.baml
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo.g.resources
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo.Properties.Resources.resources
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.GenerateResource.cache
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.CoreCompileInputs.cache
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo.exe
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo.pdb
