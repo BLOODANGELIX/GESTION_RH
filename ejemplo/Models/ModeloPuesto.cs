@@ -10,6 +10,20 @@ namespace ejemplo.Models
     {
         public int IdPuesto { get; set; }
         public string Nombre { get; set; }
-        public double Salario { get; set; }
+    
+        public decimal Salario { get; set; }
+
+        /*
+          * El tipo de dato decimal es un tipo de dato 
+          * especial para manejar calculos 
+          * ya que suele tener mayor precisión que otros
+          * tipos de punto flotante como double 
+          * también se caracteriza por utilizar base 10 
+          * para la parte decimal a diferencia de un double que
+          * usa base dos lo que suele dar problemas de
+          * redondeo
+          * comentario escrito por Juan D.
+        */
+
     }
 }
