@@ -17,13 +17,14 @@ namespace ejemplo.Repositories
             {
                 "LAPTOP-A6E4VDMG\\VSGESTION",
                 "DESKTOP-S4PFS0S\\VSGESTION",
-                "DESKTOP-85CNOQA\\VSGESTION"
+                "DESKTOP-85CNOQA\\VSGESTION",
+                "NITRO-BRAYAN\\VSGESTION"
             };
             // Para poder hacer pruebas es necesario cambiar el nombre del servidor para cada integrante que vaya a realizar las pruebas
             //LAPTOP-A6E4VDMG\VSGESTION
             
             //Seleccion de servidor
-            string servidorPedido = servidores[1];
+            string servidorPedido = servidores[3];
 
             _connectionString = $"Server={servidorPedido}; Database=RHDB; Integrated Security=true";
             

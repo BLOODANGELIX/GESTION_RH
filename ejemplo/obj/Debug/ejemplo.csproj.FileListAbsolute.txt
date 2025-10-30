@@ -1,0 +1,103 @@
+D:\net\ejemplo\ejemplo\bin\Debug\ejemplo.exe.config
+D:\net\ejemplo\ejemplo\bin\Debug\ejemplo.exe
+D:\net\ejemplo\ejemplo\bin\Debug\ejemplo.pdb
+D:\net\ejemplo\ejemplo\obj\Debug\ejemplo.csproj.AssemblyReference.cache
+D:\net\ejemplo\ejemplo\obj\Debug\MainWindow.g.cs
+D:\net\ejemplo\ejemplo\obj\Debug\view\LoginView.g.cs
+D:\net\ejemplo\ejemplo\obj\Debug\App.g.cs
+D:\net\ejemplo\ejemplo\obj\Debug\ejemplo_MarkupCompile.cache
+D:\net\ejemplo\ejemplo\obj\Debug\ejemplo_MarkupCompile.lref
+D:\net\ejemplo\ejemplo\obj\Debug\MainWindow.baml
+D:\net\ejemplo\ejemplo\obj\Debug\view\LoginView.baml
+D:\net\ejemplo\ejemplo\obj\Debug\ejemplo.g.resources
+D:\net\ejemplo\ejemplo\obj\Debug\ejemplo.Properties.Resources.resources
+D:\net\ejemplo\ejemplo\obj\Debug\ejemplo.csproj.GenerateResource.cache
+D:\net\ejemplo\ejemplo\obj\Debug\ejemplo.csproj.CoreCompileInputs.cache
+D:\net\ejemplo\ejemplo\obj\Debug\ejemplo.exe
+D:\net\ejemplo\ejemplo\obj\Debug\ejemplo.pdb
+D:\net\ejemplo\ejemplo\obj\Debug\CustomControls\BindablePasswordBox.g.cs
+D:\net\ejemplo\ejemplo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\net\ejemplo\ejemplo\obj\Debug\CustomControls\BindablePasswordBox.baml
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\bin\Debug\ejemplo.exe.config
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\bin\Debug\ejemplo.exe
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\bin\Debug\ejemplo.pdb
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.AssemblyReference.cache
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\ejemplo.exe.config
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\CustomControls\BindablePasswordBox.g.cs
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\MainWindow.g.cs
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\view\LoginView.g.cs
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\App.g.cs
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\ejemplo_MarkupCompile.cache
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\ejemplo_MarkupCompile.lref
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\CustomControls\BindablePasswordBox.baml
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\MainWindow.baml
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\view\LoginView.baml
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\ejemplo.g.resources
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\ejemplo.Properties.Resources.resources
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.GenerateResource.cache
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.CoreCompileInputs.cache
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\ejemplo.exe
+C:\Users\wolfs\Desktop\.NET\Proyecto_RH\Genstion_RH\GESTION_RH\ejemplo\obj\Debug\ejemplo.pdb
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\bin\Debug\ejemplo.exe.config
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\bin\Debug\ejemplo.exe
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\bin\Debug\ejemplo.pdb
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.AssemblyReference.cache
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\ejemplo.exe.config
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\CustomControls\BindablePasswordBox.g.cs
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\App.g.cs
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\ejemplo_MarkupCompile.cache
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\ejemplo_MarkupCompile.lref
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\CustomControls\BindablePasswordBox.baml
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\ejemplo.g.resources
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\ejemplo.Properties.Resources.resources
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.GenerateResource.cache
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.CoreCompileInputs.cache
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\ejemplo.exe
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\ejemplo.pdb
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\Views\LoginView.g.cs
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\Views\LoginView.baml
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\Views\MainWindow.g.cs
+C:\Users\jay\Desktop\GESTION_RH\ejemplo\obj\Debug\Views\MainWindow.baml
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.AssemblyReference.cache
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\CustomControls\BindablePasswordBox.g.cs
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\Views\MainWindow.g.cs
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\Views\LoginView.g.cs
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\App.g.cs
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\ejemplo_MarkupCompile.cache
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\ejemplo_MarkupCompile.lref
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\ejemplo.exe
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\ejemplo.pdb
+D:\sht\proy\GESTION_RH\ejemplo\bin\Debug\ejemplo.exe.config
+D:\sht\proy\GESTION_RH\ejemplo\bin\Debug\ejemplo.exe
+D:\sht\proy\GESTION_RH\ejemplo\bin\Debug\ejemplo.pdb
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\CustomControls\BindablePasswordBox.baml
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\Views\MainWindow.baml
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\Views\LoginView.baml
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\ejemplo.g.resources
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\ejemplo.Properties.Resources.resources
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.GenerateResource.cache
+D:\sht\proy\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.CoreCompileInputs.cache
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\bin\Debug\ejemplo.exe.config
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\bin\Debug\ejemplo.exe
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\bin\Debug\ejemplo.pdb
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.AssemblyReference.cache
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo.exe.config
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\CustomControls\BindablePasswordBox.g.cs
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\Views\MainWindow.g.cs
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\Views\LoginView.g.cs
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\App.g.cs
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo_MarkupCompile.cache
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo_MarkupCompile.lref
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\CustomControls\BindablePasswordBox.baml
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\Views\MainWindow.baml
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\Views\LoginView.baml
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo.g.resources
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo.Properties.Resources.resources
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.GenerateResource.cache
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo.csproj.CoreCompileInputs.cache
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo.exe
+C:\Users\braya\OneDrive\Escritorio\Proyecto Vanessa\GESTION_RH\ejemplo\obj\Debug\ejemplo.pdb
