@@ -8,7 +8,7 @@ namespace ejemplo.Models
 {
     public class ModeloAsistencia
     {
-        public int idAsistencia {  get; set; }
+        public int IdAsistencia {  get; set; }
         public DateTime Fecha { get; set; }
         public ModeloEmpleado RFC { get; set; }
     }

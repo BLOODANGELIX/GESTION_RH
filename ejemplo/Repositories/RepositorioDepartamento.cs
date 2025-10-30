@@ -24,9 +24,17 @@ namespace ejemplo.Repositories
                 command.CommandText = @"INSERT INTO [dbo].[Departamento] (nombreDepartamento,idJefe)
                                        VALUES (@nombreDepartamento, @idJefe)";
                 command.Parameters.AddWithValue("@nombreDepartamento", modelo.Nombre);
-                command.Parameters.AddWithValue("@idJefe", modelo.JefeDepartamento.RFC);
+
+                if (modelo.JefeDepartamento != null)
+                {
+                    command.Parameters.AddWithValue("@idJefe", modelo.JefeDepartamento.RFC);
+                }
+                else
+                {
+                    command.Parameters.AddWithValue("@idJefe", DBNull.Value);
+                }
+
                 command.ExecuteNonQuery();
-                connection.Close();
             }
         }
 
@@ -42,7 +50,16 @@ namespace ejemplo.Repositories
             {
                 connection.Open();
                 command.Parameters.AddWithValue("@nombreDepartamento", modelo.Nombre);
-                command.Parameters.AddWithValue("@idJefe", modelo.JefeDepartamento.RFC); // Cambiar el id jefe
+
+                if (modelo.JefeDepartamento != null)
+                {
+                    command.Parameters.AddWithValue("@idJefe", modelo.JefeDepartamento.RFC);
+                }
+                else
+                {
+                    command.Parameters.AddWithValue("@idJefe", DBNull.Value);
+                }
+
                 command.Parameters.AddWithValue("@idDepartamento",modelo.IdDepartamento);
                 command.ExecuteNonQuery();
             }
@@ -52,8 +69,6 @@ namespace ejemplo.Repositories
         {
             ObservableCollection<ModeloDepartamento> lsResult = new ObservableCollection<ModeloDepartamento>();
 
-            // 1. Modifica la consulta para incluir la tabla Empleado (usamos LEFT JOIN
-            //    por si un departamento NO tiene jefe asignado)
             string consultaSql = @"SELECT 
                                     d.idDepartamento, 
                                     d.nombreDepartamento,
@@ -62,7 +77,7 @@ namespace ejemplo.Repositories
                                     e.Paterno AS Jefe_Paterno,
                                     e.Materno AS Jefe_Materno
                                    FROM [dbo].[Departamento] d
-                                   LEFT JOIN [dbo].[Empleado] e ON d.idJefe = e.RFC"; // eliminar esto de la cosulta 
+                                   LEFT JOIN [dbo].[Empleado] e ON d.idJefe = e.RFC";
 
             using (var connection = GetConnection())
             using (var command = new SqlCommand(consultaSql, connection))
@@ -79,7 +94,7 @@ namespace ejemplo.Repositories
                     {
                         jefe = new ModeloEmpleado()
                         {
-                            RFC = (int)reader["Jefe_RFC"],
+                            RFC = (string)reader["Jefe_RFC"],
                             Nombre = (string)reader["Jefe_Nombre"],
                             Paterno = (string)reader["Jefe_Paterno"],
                             Materno = (string)reader["Jefe_Materno"]
@@ -100,12 +115,64 @@ namespace ejemplo.Repositories
 
         public ModeloDepartamento GetById(int id)
         {
-            throw new NotImplementedException();
+            ModeloDepartamento departamento = null;
+
+            string consultaSql = @"SELECT 
+                                    d.idDepartamento, 
+                                    d.nombreDepartamento,
+                                    e.RFC AS Jefe_RFC,
+                                    e.Nombre AS Jefe_Nombre,
+                                    e.Paterno AS Jefe_Paterno,
+                                    e.Materno AS Jefe_Materno
+                                   FROM [dbo].[Departamento] d
+                                   LEFT JOIN [dbo].[Empleado] e ON d.idJefe = e.RFC
+                                   WHERE d.idDepartamento = @idDepartamento"; 
+
+            using (var connection = GetConnection())
+            using (var command = new SqlCommand(consultaSql, connection))
+            {
+                connection.Open();
+                command.Parameters.AddWithValue("@idDepartamento", id);
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    ModeloEmpleado jefe = null;
+
+                    if (reader["Jefe_RFC"] != DBNull.Value)
+                    {
+                        jefe = new ModeloEmpleado()
+                        {
+                            RFC = (string)reader["Jefe_RFC"],
+                            Nombre = (string)reader["Jefe_Nombre"],
+                            Paterno = (string)reader["Jefe_Paterno"],
+                            Materno = (string)reader["Jefe_Materno"]
+                        };
+                    }
+
+                    departamento = new ModeloDepartamento()
+                    {
+                        IdDepartamento = (int)reader["idDepartamento"],
+                        Nombre = (string)reader["nombreDepartamento"],
+                        JefeDepartamento = jefe
+                    };
+                }
+            }
+            return departamento;
         }
+
 
         public void Remove(int id)
         {
-            throw new NotImplementedException();
+            string consultaEliminar = "DELETE FROM  [dbo].[DEPARTAMENTO] WHERE idDepartamento = @id";
+            using (var connection = GetConnection())
+            using (var command = new SqlCommand(consultaEliminar, connection))
+            {
+                connection.Open();
+                command.Parameters.AddWithValue("@id", id);
+                command.ExecuteNonQuery();
+            }
         }
     }
 }

@@ -65,7 +65,10 @@
     <Compile Include="Models\ModeloEmpleado.cs" />
     <Compile Include="Models\ModeloPuesto.cs" />
     <Compile Include="Models\UserModel.cs" />
+    <Compile Include="Repositories\IBaseRepository.cs" />
+    <Compile Include="Repositories\RepositorioAsistencia.cs" />
     <Compile Include="Repositories\RepositorioDepartamento.cs" />
+    <Compile Include="Repositories\RepositorioEmpleado.cs" />
     <Compile Include="Repositories\RepositorioPuesto.cs" />
     <Compile Include="Repositories\RepositoryBase.cs" />
     <Compile Include="Repositories\userRepository.cs" />
