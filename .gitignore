@@ -17,3 +17,9 @@ obj/
 # 5. los packages y .config
 packages/
 ejemplo/packages.config
+
+#. Bin y obj dentro del projecto 
+ejemplo/bin/
+ejemplo/obj/
+
+
