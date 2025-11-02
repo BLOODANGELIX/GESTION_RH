@@ -23,7 +23,7 @@ namespace ejemplo
             {
                 if (LoginView.IsVisible == false && LoginView.IsLoaded)
                 {
-                    var mainView = new MainWindow();
+                    var mainView = new InicioAdministrtador();
                     mainView.Show();
                     LoginView.Close();
                 }
