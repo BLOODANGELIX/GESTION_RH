@@ -13,7 +13,7 @@ namespace ejemplo.Models
     
         public decimal Salario { get; set; }
 
-        public int VacantesDisponibles;
+        public int VacantesDisponibles { get; set; }
 
         /*
           * El tipo de dato decimal es un tipo de dato 
