@@ -48,7 +48,7 @@
     -- Tabla: Empleado
     -- =======================================
     CREATE TABLE [dbo].[Empleado](
-        [RFC] NVARCHAR(13) NOT NULL,
+        [RFC] NVARCHAR(13) NOT NULL,    
         [nombre] NVARCHAR(50) NOT NULL,
         [paterno] NVARCHAR(50) NOT NULL,
         [materno] NVARCHAR(50) NOT NULL,

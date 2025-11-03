@@ -18,10 +18,11 @@ namespace ejemplo.Repositories
             {
                 connection.Open();
                 command.Connection = connection;
-                command.CommandText = @"INSERT INTO [dbo].[Puesto] (nombre,salario)
-                                        VALUES (@nombre, @salario)";
+                command.CommandText = @"INSERT INTO [dbo].[Puesto] (nombre,salario,vacantesDisponibles)
+                                        VALUES (@nombre, @salario, @vacantesDisponibles)";
                 command.Parameters.AddWithValue("@nombre", modelo.Nombre);
                 command.Parameters.AddWithValue("@salario", modelo.Salario);
+                command.Parameters.AddWithValue("@vacantesDisponibles", modelo.VacantesDisponibles);
                 command.ExecuteNonQuery();
             }
         }   
@@ -30,7 +31,8 @@ namespace ejemplo.Repositories
         {
             string cosultaEditar = "UPDATE [dbo].[Puesto] " +
                 "SET nombre = @nombre, " +
-                "salario = @salario " +
+                "salario = @salario, " +
+                "vacantesDisponibles = @vacantesDisponibles " +
                 "WHERE idPuesto = @idPuesto";
             using (var connection = GetConnection())
             using (var command = new SqlCommand(cosultaEditar,connection))
@@ -38,6 +40,7 @@ namespace ejemplo.Repositories
                 connection.Open ();
                 command.Parameters.AddWithValue("@nombre", modelo.Nombre);
                 command.Parameters.AddWithValue("@salario", modelo.Salario);
+                command.Parameters.AddWithValue("@vacantesDisponibles", modelo.VacantesDisponibles);
                 command.Parameters.AddWithValue("@idPuesto", modelo.IdPuesto);
                 command.ExecuteNonQuery();
             }
@@ -59,7 +62,9 @@ namespace ejemplo.Repositories
                     {
                         IdPuesto = (int)reader["idPuesto"],
                         Nombre = (string)reader["nombre"],
-                        Salario = (decimal)reader["salario"]
+                        Salario = (decimal)reader["salario"],
+                        VacantesDisponibles = (int)reader["vacantesDisponibles"]
+                       
                     });
                 }
                 reader.Close();
@@ -71,7 +76,7 @@ namespace ejemplo.Repositories
         {
             ModeloPuesto modeloPuesto = null;
 
-            string consultaGetbyId = "SELECT idPuesto, nombre, salario " +
+            string consultaGetbyId = "SELECT idPuesto, nombre, salario, vacantesDisponibles " +
                 "From [dbo].[Puesto] " +
                 "WHERE idPuesto = @id";
             using (var connection = GetConnection())
@@ -86,7 +91,8 @@ namespace ejemplo.Repositories
                     {
                         IdPuesto = (int)reader["idPuesto"],
                         Nombre = (string)reader["nombre"],
-                        Salario = (decimal)reader["salario"]
+                        Salario = (decimal)reader["salario"],
+                        VacantesDisponibles = (int)reader["vacantesDisponibles"]
                     };
 
                 }
