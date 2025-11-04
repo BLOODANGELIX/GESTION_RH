@@ -5,49 +5,49 @@
 USE [RHDB];
 GO
 -- =======================================
--- 1. Insertar Departamentos (sin jefe a鷑)
+-- 1. Insertar Departamentos (sin jefe a煤n)
 -- =======================================
 INSERT INTO [dbo].[Departamento] (nombreDepartamento, idJefe)
 VALUES 
-('Administraci髇', NULL),
+('Administraci贸n', NULL),
 ('Recursos Humanos', NULL),
-('Tecnolog韆s de la Informaci髇', NULL);
+('Tecnolog铆as de la Informaci贸n', NULL);
 
 -- =======================================
 -- 2. Insertar Puestos
 -- =======================================
-INSERT INTO [dbo].[Puesto] (nombre, salario)
+INSERT INTO [dbo].[Puesto] (nombre, salario, vacantesDisponibles)
 VALUES
-('Administrador General', 25000.00),
-('Analista de Recursos Humanos', 15000.00),
-('Desarrollador Backend', 20000.00),
-('Soporte T閏nico', 12000.00);
+('Administrador General', 25000.00,1),
+('Analista de Recursos Humanos', 15000.00,1),
+('Desarrollador Backend', 20000.00,3),
+('Soporte T茅cnico', 12000.00,2);
 
 -- =======================================
 -- 3. Insertar Empleados
--- (El RFC es clave primaria y sirve tambi閚 como idJefe)
+-- (El RFC es clave primaria y sirve tambi茅n como idJefe)
 -- =======================================
 INSERT INTO [dbo].[Empleado] 
-(RFC, nombre, paterno, materno, telefono, correo, idDepartamento, idPuesto, idJefe)
+(RFC, nombre, paterno, materno, telefono, correo, idDepartamento, idPuesto)
 VALUES
--- Jefe de Administraci髇 (no tiene jefe)
-('ADM001122AAB', 'Laura', 'Hern醤dez', 'Ruiz', '5512345678', 'laura.hernandez@empresa.com', 1, 1, NULL),
+-- Jefe de Administraci贸n (no tiene jefe)
+('ADM001122AAB', 'Laura', 'Hern谩ndez', 'Ruiz', '5512345678', 'laura.hernandez@empresa.com', 1, 1),
 
 -- Recursos Humanos, jefe: Laura
-('RHU001122BBC', 'Carlos', 'Mendoza', 'Soto', '5523456789', 'carlos.mendoza@empresa.com', 2, 2, 'ADM001122AAB'),
+('RHU001122BBC', 'Carlos', 'Mendoza', 'Soto', '5523456789', 'carlos.mendoza@empresa.com', 2, 2),
 
 -- TI, jefe: Laura
-('TII001122CCD', 'Ana', 'G髆ez', 'Torres', '5534567890', 'ana.gomez@empresa.com', 3, 3, 'ADM001122AAB'),
+('TII001122CCD', 'Ana', 'G贸mez', 'Torres', '5534567890', 'ana.gomez@empresa.com', 3, 3),
 
 -- Otro empleado en TI con jefe Ana
-('TII002233DDE', 'Luis', 'Fern醤dez', 'Ortiz', '5545678901', 'luis.fernandez@empresa.com', 3, 4, 'TII001122CCD');
+('TII002233DDE', 'Luis', 'Fern谩ndez', 'Ortiz', '5545678901', 'luis.fernandez@empresa.com', 3, 4);
 
 -- =======================================
 -- 4. Actualizar Departamentos para asignar jefes
 -- =======================================
 UPDATE [dbo].[Departamento]
 SET idJefe = 'ADM001122AAB'
-WHERE nombreDepartamento = 'Administraci髇';
+WHERE nombreDepartamento = 'Administraci贸n';
 
 UPDATE [dbo].[Departamento]
 SET idJefe = 'RHU001122BBC'
@@ -55,26 +55,11 @@ WHERE nombreDepartamento = 'Recursos Humanos';
 
 UPDATE [dbo].[Departamento]
 SET idJefe = 'TII001122CCD'
-WHERE nombreDepartamento = 'Tecnolog韆s de la Informaci髇';
+WHERE nombreDepartamento = 'Tecnolog铆as de la Informaci贸n';
 
 -- =======================================
--- 5. Insertar Usuarios (vinculados simb髄icamente)
+-- 5. Insertar Usuarios (vinculados simb贸licamente)
 -- =======================================
 INSERT INTO [dbo].[Usuario] (usuario, contrasenia)
 VALUES
-('admin', 'admin123'),
-('carlos.m', 'rhu2025'),
-('ana.g', 'tiDev2025'),
-('luis.f', 'support2025');
-
--- =======================================
--- 6. Insertar Asistencias de ejemplo
--- =======================================
-INSERT INTO [dbo].[Asistencia] (idAsistencia, fecha, RFC)
-VALUES
-(1, '2025-10-20', 'ADM001122AAB'),
-(2, '2025-10-20', 'RHU001122BBC'),
-(3, '2025-10-20', 'TII001122CCD'),
-(4, '2025-10-20', 'TII002233DDE'),
-(5, '2025-10-21', 'ADM001122AAB'),
-(6, '2025-10-21', 'TII001122CCD');
+('admin', 'admin123');
