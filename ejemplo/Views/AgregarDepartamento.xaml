@@ -99,9 +99,7 @@
                                  FontSize="20" 
                                  BorderBrush="#19183B" 
                                  BorderThickness="1" 
-                                 Padding="10"
-                                 GotFocus="TextBox_GotFocus"
-                                 LostFocus="TextBox_LostFocus"/>
+                                 Padding="10"/>
 
                         <!-- Segunda fila: Jefe de Departamento -->
                         <TextBox x:Name="JefeDept" 
@@ -114,9 +112,7 @@
                                  FontSize="20" 
                                  BorderBrush="#19183B" 
                                  BorderThickness="1" 
-                                 Padding="10"
-                                 GotFocus="TextBox_GotFocus"
-                                 LostFocus="TextBox_LostFocus"/>
+                                 Padding="10"/>
 
                         <!-- Quinta fila: Botones -->
                         <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,30,0,0">

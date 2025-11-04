@@ -98,9 +98,7 @@
                                  FontSize="20"
                                  BorderBrush="#19183B"
                                  BorderThickness="1"
-                                 Padding="10"
-                                 GotFocus="TextBox_GotFocus"
-                                 LostFocus="TextBox_LostFocus"/>
+                                 Padding="10"/>
 
                             <TextBox x:Name="ApellidoP" 
                                  Text="Apellido Paterno"
@@ -110,9 +108,7 @@
                                  FontSize="20" 
                                  BorderBrush="#19183B" 
                                  BorderThickness="1" 
-                                 Padding="10"
-                                 GotFocus="TextBox_GotFocus"
-                                 LostFocus="TextBox_LostFocus"/>
+                                 Padding="10"/>
 
                             <TextBox x:Name="ApellidoM" 
                                  Text="Apellido Materno"
@@ -122,9 +118,7 @@
                                  FontSize="20" 
                                  BorderBrush="#19183B" 
                                  BorderThickness="1" 
-                                 Padding="10"
-                                 GotFocus="TextBox_GotFocus"
-                                 LostFocus="TextBox_LostFocus"/>
+                                 Padding="10"/>
                         </StackPanel>
 
                         <!-- Segunda fila: RFC -->
@@ -138,9 +132,7 @@
                              FontSize="20" 
                              BorderBrush="#19183B" 
                              BorderThickness="1" 
-                             Padding="10"
-                             GotFocus="TextBox_GotFocus"
-                             LostFocus="TextBox_LostFocus"/>
+                             Padding="10"/>
 
                         <!-- Tercera fila: Correo -->
                         <TextBox x:Name="Correo" 
@@ -153,9 +145,7 @@
                              FontSize="20" 
                              BorderBrush="#19183B" 
                              BorderThickness="1" 
-                             Padding="10"
-                             GotFocus="TextBox_GotFocus"
-                             LostFocus="TextBox_LostFocus"/>
+                             Padding="10"/>
 
                         <!-- Cuarta fila: Teléfono y Departamento -->
                         <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
@@ -167,9 +157,7 @@
                                  FontSize="20"
                                  BorderBrush="#19183B"
                                  BorderThickness="1"
-                                 Padding="10"
-                                 GotFocus="TextBox_GotFocus"
-                                 LostFocus="TextBox_LostFocus"/>
+                                 Padding="10"/>
 
                             <TextBox x:Name="Departamento" 
                                  Text="Departamento"
@@ -179,9 +167,7 @@
                                  FontSize="20" 
                                  BorderBrush="#19183B" 
                                  BorderThickness="1" 
-                                 Padding="10"
-                                 GotFocus="TextBox_GotFocus"
-                                 LostFocus="TextBox_LostFocus"/>
+                                 Padding="10"/>
 
                             <TextBox x:Name="Puesto" 
                                  Text="Puesto"
@@ -191,9 +177,7 @@
                                  FontSize="20" 
                                  BorderBrush="#19183B" 
                                  BorderThickness="1" 
-                                 Padding="10"
-                                 GotFocus="TextBox_GotFocus"
-                                 LostFocus="TextBox_LostFocus"/>
+                                 Padding="10"/>
                         </StackPanel>
 
                         <!-- Quinta fila: Botones -->
