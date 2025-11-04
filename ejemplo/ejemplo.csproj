@@ -63,13 +63,10 @@
     </Compile>
     <Compile Include="Models\IBaseRepository.cs" />
     <Compile Include="Models\IUserRepository.cs" />
-    <Compile Include="Models\ModeloAsistencia.cs" />
     <Compile Include="Models\ModeloDepartamento.cs" />
     <Compile Include="Models\ModeloEmpleado.cs" />
     <Compile Include="Models\ModeloPuesto.cs" />
     <Compile Include="Models\UserModel.cs" />
-    <Compile Include="Repositories\IBaseRepository.cs" />
-    <Compile Include="Repositories\RepositorioAsistencia.cs" />
     <Compile Include="Repositories\RepositorioDepartamento.cs" />
     <Compile Include="Repositories\RepositorioEmpleado.cs" />
     <Compile Include="Repositories\RepositorioPuesto.cs" />
