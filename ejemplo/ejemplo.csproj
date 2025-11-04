@@ -75,6 +75,15 @@
     <Compile Include="ViewModels\LoginViewModel.cs" />
     <Compile Include="ViewModels\ViewModelCommand.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
+    <Compile Include="Views\AgregarDepartamento.xaml.cs">
+      <DependentUpon>AgregarDepartamento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AgregarEmpleado.xaml.cs">
+      <DependentUpon>AgregarEmpleado.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AgregarPuesto.xaml.cs">
+      <DependentUpon>AgregarPuesto.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\InicioAdministrtador.xaml.cs">
       <DependentUpon>InicioAdministrtador.xaml</DependentUpon>
     </Compile>
@@ -86,6 +95,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Styles\BottonStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AgregarDepartamento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AgregarEmpleado.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AgregarPuesto.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
