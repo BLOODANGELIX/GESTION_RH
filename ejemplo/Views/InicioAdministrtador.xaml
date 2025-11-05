@@ -5,13 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ejemplo.Views"
         mc:Ignorable="d"
+        xmlns:ViewModel="clr-namespace:ejemplo.ViewModels"
         xmlns:fa="http://schemas.fontawesome.io/icons/"
         WindowStartupLocation="CenterScreen"
         Background="Transparent"
         WindowStyle="None"
         AllowsTransparency="True"
         Height="700" Width="1300">
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type ViewModel:EmpleadosViewModel}">
+            <local:EmpleadoView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModel:DepartamentoViewModel}">
+            <local:DepartamentosView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModel:PuestosViewModel}">
+            <local:PuestosView/>
+        </DataTemplate>
+    </Window.Resources>
     
+
+
     <Border CornerRadius="10" BorderThickness="1">
         <Border.BorderBrush>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
@@ -62,7 +76,8 @@
 
                         <RadioButton Style="{StaticResource MenuButton}"
                                      Tag="#E7F2EF"
-                                     IsChecked="True">
+                                     IsChecked="True"
+                                     Command="{Binding ShowEmpleadoViewCommand}">
                             <StackPanel Orientation="Horizontal">
                                 <fa:ImageAwesome Icon="User" Style="{StaticResource MenuIcon}"/>
                                 <TextBlock Text="Empleados" Style="{StaticResource MenuText}"/>
@@ -70,7 +85,8 @@
                         </RadioButton>
 
                         <RadioButton Style="{StaticResource MenuButton}"
-                                     Tag="#4ECCA3">
+                                     Tag="#4ECCA3"
+                                     Command="{Binding ShowDepartamentoViewCommand}">
                             <StackPanel Orientation="Horizontal">
                                 <fa:ImageAwesome Icon="Building" Style="{StaticResource MenuIcon}"/>
                                 <TextBlock Text="Departamentos" Style="{StaticResource MenuText}"/>
@@ -78,7 +94,8 @@
                         </RadioButton>
 
                         <RadioButton Style="{StaticResource MenuButton}"
-                                     Tag="#FFD700">
+                                     Tag="#FFD700"
+                                     Command="{Binding ShowPuestoViewCommand}">
                             <StackPanel Orientation="Horizontal">
                                 <fa:ImageAwesome Icon="Briefcase" Style="{StaticResource MenuIcon}"/>
                                 <TextBlock Text="Puesto" Style="{StaticResource MenuText}"/>
@@ -95,7 +112,8 @@
                     Background="#A1C2BD">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="35"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
 
@@ -125,6 +143,10 @@
                     </StackPanel>
 
                     <Grid Grid.Row="1"/>
+                    <ContentControl Content="{Binding CurrentView}"
+
+                                    Grid.Row="2"
+                                    Margin="25"/>
 
                 </Grid>
             </Border>

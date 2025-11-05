@@ -72,7 +72,11 @@
     <Compile Include="Repositories\RepositorioPuesto.cs" />
     <Compile Include="Repositories\RepositoryBase.cs" />
     <Compile Include="Repositories\userRepository.cs" />
+    <Compile Include="ViewModels\DepartamentoViewModel.cs" />
+    <Compile Include="ViewModels\EmpleadosViewModel.cs" />
+    <Compile Include="ViewModels\InicioAdministradorViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\PuestosViewModel.cs" />
     <Compile Include="ViewModels\ViewModelCommand.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
     <Compile Include="Views\AgregarDepartamento.xaml.cs">
@@ -84,17 +88,30 @@
     <Compile Include="Views\AgregarPuesto.xaml.cs">
       <DependentUpon>AgregarPuesto.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\DepartamentosView.xaml.cs">
+      <DependentUpon>DepartamentosView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EmpleadoView.xaml.cs">
+      <DependentUpon>EmpleadoView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\InicioAdministrtador.xaml.cs">
       <DependentUpon>InicioAdministrtador.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\LoginView.xaml.cs">
       <DependentUpon>LoginView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\PuestosView.xaml.cs">
+      <DependentUpon>PuestosView.xaml</DependentUpon>
+    </Compile>
     <Page Include="CustomControls\BindablePasswordBox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Styles\BottonStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\TableStylesTablas.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -107,6 +124,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\AgregarPuesto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\DepartamentosView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EmpleadoView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -127,6 +152,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\LoginView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PuestosView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
