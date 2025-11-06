@@ -39,7 +39,7 @@
     CREATE TABLE [dbo].[Puesto](
         [idPuesto] INT IDENTITY(1,1) NOT NULL,
         [nombre] NVARCHAR(50) NOT NULL,
-        [salario] DECIMAL(10,2) NOT NULL,
+        [salario] INT NOT NULL,
         [vacantesDisponibles] INT NOT NULL, 
         CONSTRAINT [PK_Puesto] PRIMARY KEY CLUSTERED ([idPuesto] ASC)
     );
