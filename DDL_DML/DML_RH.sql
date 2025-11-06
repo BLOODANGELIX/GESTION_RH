@@ -18,10 +18,10 @@ VALUES
 -- =======================================
 INSERT INTO [dbo].[Puesto] (nombre, salario, vacantesDisponibles)
 VALUES
-('Administrador General', 25000.00,1),
-('Analista de Recursos Humanos', 15000.00,1),
-('Desarrollador Backend', 20000.00,3),
-('Soporte Técnico', 12000.00,2);
+('Administrador General', 25000,1),
+('Analista de Recursos Humanos', 15000,1),
+('Desarrollador Backend', 20000,3),
+('Soporte Técnico', 12000,2);
 
 -- =======================================
 -- 3. Insertar Empleados
